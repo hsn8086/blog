@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/强大的包管理-Poetry.md",
+                "file": "source/_posts/2022-11-18-mc通信_ping的原理及实现.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "强大的包管理-Poetry"
+              "title": "2022-11-18-mc通信_ping的原理及实现"
             }
           }
         ],
@@ -181,11 +181,24 @@
   },
   "active": "2fbb0e8971ab7a10",
   "lastOpenFiles": [
+    "source/_posts/2023-4-16-软件推荐.md",
+    "source/_posts/CF2032-C-Trinity-题解.md",
+    "source/_posts/CF2044-D-Harder-Problem-题解.md",
+    "source/_posts/CF2053-C- Bewitching-Stargazer-题解.md",
+    "source/_posts/CF2070D-D-Tree-Jumps-题解.md",
+    "source/_posts/COCI-2020-2021-6.md",
+    "source/_posts/Codeforces-Python防卡哈希模板.md",
+    "source/_posts/ICPC2024-Warmup-昆明-B.战争-题解.md",
+    "source/_posts/ICPC2024-台中-B.保龄球-题解.md",
+    "source/_posts/ICPC2024-昆明-H.扫描地平线-题解.md",
+    "source/_posts/Johnson全源最短路径-Python模板.md",
+    "source/_posts/Python-ST表.md",
+    "source/_posts/Python并查集三种.md",
+    "source/_posts/Python竞赛输入模板.md",
+    "source/_posts/杂谈Python异步编程.md",
+    "source/_posts/强大的包管理-Poetry.md",
     "README.md",
     "source/_posts/2021-7-8-离线lunar的使用.md",
-    "捐赠链接.md",
-    "source/_posts/2023-4-16-软件推荐.md",
-    "source/_posts/Python-ST表.md",
-    "source/_posts/COCI-2020-2021-6.md"
+    "捐赠链接.md"
   ]
 }
