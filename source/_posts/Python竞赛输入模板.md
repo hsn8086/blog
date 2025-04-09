@@ -5,6 +5,7 @@ katex: true
 tags:
   - 算法
   - python
+  - 模板
 reprintPolicy: cc_by_nc_nd
 ---
 # 速度优先

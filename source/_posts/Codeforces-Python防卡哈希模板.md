@@ -6,6 +6,7 @@ tags:
   - 算法
   - python
   - codeforces
+  - 模板
 reprintPolicy: cc_by_nc_nd
 ---
 ``` python

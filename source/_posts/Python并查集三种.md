@@ -6,6 +6,7 @@ tags:
   - 算法
   - python
   - 数据结构
+  - 模板
 reprintPolicy: cc_by_nc_nd
 ---
 # 纯面向过程
