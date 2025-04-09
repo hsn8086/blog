@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.zh314.xyz/sitemap.xml
+Sitemap: https://www.zh314.xyz/baidusitemap.xml
