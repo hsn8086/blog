@@ -2,7 +2,11 @@
 title: ICPC 2024 昆明 H.扫描地平线 题解
 date: 2024-12-10 14:51:41
 katex: true
-tag: [ ACM,算法,题解 ]
+tags:
+  - ACM
+  - 算法
+  - 题解
+  - ICPC
 reprintPolicy: cc_by_nc_nd
 ---
 # 解题思路

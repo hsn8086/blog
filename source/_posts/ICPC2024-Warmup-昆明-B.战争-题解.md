@@ -6,6 +6,7 @@ tags:
   - 算法
   - 题解
   - ICPC
+  - ACM
 reprintPolicy: cc_by_nc_nd
 ---
 # 思路

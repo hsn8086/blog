@@ -5,6 +5,7 @@ katex: true
 tags:
   - 算法
   - 题解
+  - CodeForces
 reprintPolicy: cc_by_nc_nd
 ---
 # 思路

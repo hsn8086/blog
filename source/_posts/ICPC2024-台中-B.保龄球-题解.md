@@ -2,7 +2,11 @@
 title: ICPC 2024 台中 B. 保龄球 题解
 date: 2024-12-14 14:51:41
 katex: true
-tag: [ ACM,算法,题解 ]
+tags:
+  - ACM
+  - 算法
+  - 题解
+  - ICPC
 reprintPolicy: cc_by_nc_nd
 ---
 # 解题思路
