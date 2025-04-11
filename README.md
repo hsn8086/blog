@@ -19,7 +19,7 @@
 
 ## 支持与捐赠
 如果喜欢我的内容，可以考虑v我50支持我继续创作~
-USDT-TRC20: TYTJiU5TpfJ8rxgF5wi6F3GqNSmFLy66Ku
+USDT-TRC20: TAGnYdNZM4Kc4TXA55aBWnb2egLY6zYDhU
 ## 版权声明
 本博客所有文章如无特别说明，均为原创，采用[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)许可协议。
 
