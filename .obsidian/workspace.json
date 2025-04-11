@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_drafts/01BFS.md",
+                "file": "source/_posts/从01BFS到Dijkstra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01BFS"
+              "title": "从01BFS到Dijkstra"
             }
           }
         ]
@@ -179,10 +179,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c63d111022d9ed8b",
+  "active": "2282fd25a404cdb7",
   "lastOpenFiles": [
     "source/_drafts/2021-11-12-#U4ece#U96f6#U5f00#U59cb#U7684#U542f#U52a8#U5668#U5236#U4f5c.md",
-    "source/_drafts/01BFS.md",
+    "source/_posts/Python-ST表.md",
+    "source/_posts/CF2070D-D-Tree-Jumps-题解.md",
+    "source/_posts/从01BFS到Dijkstra.md",
+    "source/_posts/随笔-0.md",
+    "README.md",
     "source/_posts/CF2032-C-Trinity-题解.md",
     "source/_posts/Codeforces-Python防卡哈希模板.md",
     "source/categories/index.md",
@@ -201,7 +205,6 @@
     "source/_posts/ICPC2024-昆明-H.扫描地平线-题解.md",
     "source/_posts/ICPC2024-台中-B.保龄球-题解.md",
     "source/_posts/ICPC2024-Warmup-昆明-B.战争-题解.md",
-    "source/_posts/CF2070D-D-Tree-Jumps-题解.md",
     "source/_posts/CF2053-C- Bewitching-Stargazer-题解.md",
     "source/_posts/CF2044-D-Harder-Problem-题解.md",
     "source/_posts/洛谷-P2367-语文成绩-Python题解.md",
@@ -209,7 +212,6 @@
     "source/_posts/实现一个简单的json解析器.md",
     "source/_posts/杂谈Python异步编程.md",
     "source/_posts/Johnson全源最短路径-Python模板.md",
-    "source/_posts/Python-ST表.md",
     "source/_posts/Python并查集三种.md",
     "source/_posts/Python竞赛输入模板.md",
     "欢迎.md"
