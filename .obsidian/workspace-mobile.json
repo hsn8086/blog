@@ -25,14 +25,14 @@
             "id": "2fbb0e8971ab7a10",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "README.md",
-                "bFile": "README.md",
-                "aRef": ""
+                "file": "source/_posts/从01BFS到Dijkstra.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff: README"
+              "icon": "lucide-file",
+              "title": "从01BFS到Dijkstra"
             }
           }
         ],
