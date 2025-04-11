@@ -59,7 +59,7 @@ for _ in range(int(input())):
     info = [[0, 0, 0], [0, 0, 1]] 
     level = [[1]] # 第0层有且仅有根节点.
     for i, parent in enumerate(a):
-        lev = info[parent][1] + 1 # 当前曾数为父节点层数加1.
+        lev = info[parent][1] + 1 # 当前层数为父节点层数加1.
         info.append([parent, lev, 1]) # 更新节点信息.
         if len(level) <= lev: # 如果当前层数不足则添加一层. (显而易见, 层数只能一次增加1)
             level.append([]) 
