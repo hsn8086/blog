@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/2025蓝桥杯Python赛道B组题解.md",
-                "mode": "source",
-                "source": false
+                "file": "source/_posts/2025蓝桥杯Python省赛B组题解.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2025蓝桥杯Python赛道B组题解"
+              "title": "2025蓝桥杯Python省赛B组题解"
             }
           }
         ],
@@ -181,18 +181,18 @@
   },
   "active": "2fbb0e8971ab7a10",
   "lastOpenFiles": [
+    "source/_posts/CF2032-C-Trinity-题解.md",
+    "source/_posts/2023-4-16-软件推荐.md",
+    "source/_posts/2025蓝桥杯Python省赛B组题解.md",
     "/source/_posts/2025蓝桥杯Python赛道B组题解.md",
     "/source/_posts",
     "/source",
-    "source/_posts/CF2032-C-Trinity-题解.md",
     "source/_posts/2025蓝桥杯Python省赛B组题解.md",
     "/source/img/usdt.png",
     "source/img/usdt.png",
     "/source/img",
     "/db.json",
     "/_config.async.yml",
-    "source/_posts/2025蓝桥杯Python赛道B组题解.md",
-    "source/_posts/2023-4-16-软件推荐.md",
     "source/_posts/从01BFS到Dijkstra.md",
     "README.md",
     "/source/_posts/从01BFS到Dijkstra.md",
