@@ -43,3 +43,16 @@ while True:
 `afplcu`
 ## 代码
 _待补全_
+
+---
+# 试题C:LQ图形
+没什么好说的, 就是for循环 $h$ 次, 每次打印 $w$ 个`Q`,再for循环 $w$ 次每次打印 $w+v$ 个`Q`.
+## 代码
+```python
+w, h, v = map(int, input().split())
+for _ in range(h):
+    print("Q" * w)
+
+for _ in range(w):
+    print("Q" * (w + v))
+```
