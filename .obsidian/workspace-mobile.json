@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/从01BFS到Dijkstra.md",
+                "file": "source/_posts/2025蓝桥杯Python赛道B组题解.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "从01BFS到Dijkstra"
+              "title": "2025蓝桥杯Python赛道B组题解"
             }
           }
         ],
@@ -181,8 +181,9 @@
   },
   "active": "2fbb0e8971ab7a10",
   "lastOpenFiles": [
-    "README.md",
     "source/_posts/从01BFS到Dijkstra.md",
+    "source/_posts/2025蓝桥杯Python赛道B组题解.md",
+    "README.md",
     "/source/_posts/从01BFS到Dijkstra.md",
     "/source/_posts/CF2070D-D-Tree-Jumps-题解.md",
     "/source/_posts",
@@ -208,7 +209,6 @@
     "source/_posts/Python并查集三种.md",
     "source/_posts/杂谈Python异步编程.md",
     "source/_posts/强大的包管理-Poetry.md",
-    "source/_posts/2021-7-8-离线lunar的使用.md",
-    "捐赠链接.md"
+    "source/_posts/2021-7-8-离线lunar的使用.md"
   ]
 }
