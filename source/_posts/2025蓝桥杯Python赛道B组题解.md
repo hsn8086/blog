@@ -152,3 +152,14 @@ for i in range(1, n):
 
 print(cnt)
 ```
+
+---
+# 试题H: 异或和
+## 40分做法
+按题面意思计算即可
+### 代码
+``` python
+n = int(input())
+a = list(map(int, input().split()))
+print(sum(sum((a[i] ^ a[j]) * (j - i) for j in range(i + 1, n)) for i in range(n - 1)))
+```
