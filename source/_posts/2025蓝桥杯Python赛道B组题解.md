@@ -62,7 +62,41 @@ for _ in range(w):
 _待补全_
 
 ---
-# 试题E: 园艺
+# 试题E: A·B Problem
+# 40分做法
+暴力尝试可能的两数乘积, 接着暴力尝试所有可能两数之和.
+
+### 代码
+``` python
+from collections import defaultdict
+
+
+n = int(input())
+cnt_d = defaultdict(int)
+lst = set()
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        if i * j <= n:
+            cnt_d[i * j] += 1
+            lst.add(i * j)
+        else:
+            break
+            
+cnt = 0
+for i in lst:
+    for j in lst:
+        if j + i <= n:
+            cnt += cnt_d[j] * cnt_d[i]
+
+print(cnt)
+```
+
+## 满分做法
+筛法
+_待补全_
+
+---
+# 试题F: 园艺
 暴力尝试所以间隔 $d$ 并尝试间隔 $d$ 时所有可能抽取的树木. 可以证明时间复杂度不超过 $O(n^2)$.
 
 # 代码实现
@@ -88,4 +122,33 @@ for d in range(1, n + 1): # 尝试所有d
                 max_l = cnt
 print(max_l)
 
+```
+
+---
+# 试题G: 书架还原
+算是一道小思维题, 只要把每本书插到该有的位置, 然后替换点的书再放入他该有的位置, 执行下去必定是最小代价还原(每本书只用最多一次替换). 而如果不实际操作而是直接计数, 只需要判环即可, 可以证明时间复杂度为 $O(n)$ .
+
+## 代码
+``` python
+def clac(a: list, s: int, vis: set):
+    sc = s
+    cnt = 0
+    while True:
+        vis.add(sc)
+        sc = a[sc - 1]
+        if s == sc:
+            break
+        cnt += 1
+    return cnt
+
+
+n = int(input())
+a = list(map(int, input().split()))
+vis = set()
+cnt = 0
+for i in range(1, n):
+    if i not in vis:
+        cnt += clac(a, i, vis)
+
+print(cnt)
 ```
