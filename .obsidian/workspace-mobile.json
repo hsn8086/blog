@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/从01BFS到Dijkstra.md",
+                "file": "source/_posts/2025蓝桥杯Python省赛B组题解.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "从01BFS到Dijkstra"
+              "title": "2025蓝桥杯Python省赛B组题解"
             }
           }
         ],
@@ -181,20 +181,28 @@
   },
   "active": "2fbb0e8971ab7a10",
   "lastOpenFiles": [
-    "README.md",
-    "source/_posts/从01BFS到Dijkstra.md",
-    "/source/_posts/从01BFS到Dijkstra.md",
-    "/source/_posts/CF2070D-D-Tree-Jumps-题解.md",
+    "source/_posts/CF2032-C-Trinity-题解.md",
+    "source/_posts/2023-4-16-软件推荐.md",
+    "source/_posts/2025蓝桥杯Python省赛B组题解.md",
+    "/source/_posts/2025蓝桥杯Python赛道B组题解.md",
     "/source/_posts",
     "/source",
-    "source/_posts/2023-4-16-软件推荐.md",
+    "source/_posts/2025蓝桥杯Python省赛B组题解.md",
+    "/source/img/usdt.png",
+    "source/img/usdt.png",
+    "/source/img",
+    "/db.json",
+    "/_config.async.yml",
+    "source/_posts/从01BFS到Dijkstra.md",
+    "README.md",
+    "/source/_posts/从01BFS到Dijkstra.md",
+    "/source/_posts/CF2070D-D-Tree-Jumps-题解.md",
     "source/_posts/随笔-0.md",
     "source/_posts/随笔-1",
     "source/_posts/Python竞赛输入模板.md",
     "source/_posts/2021-6-5-MC服务器的搭建.md",
     "source/_posts/2021-6-29-MC开服疑难解答.md",
     "source/_posts/2022-11-18-mc通信_ping的原理及实现.md",
-    "source/_posts/CF2032-C-Trinity-题解.md",
     "source/_posts/CF2044-D-Harder-Problem-题解.md",
     "source/_posts/CF2053-C- Bewitching-Stargazer-题解.md",
     "source/_posts/CF2070D-D-Tree-Jumps-题解.md",
@@ -205,10 +213,6 @@
     "source/_posts/ICPC2024-昆明-H.扫描地平线-题解.md",
     "source/_posts/Johnson全源最短路径-Python模板.md",
     "source/_posts/Python-ST表.md",
-    "source/_posts/Python并查集三种.md",
-    "source/_posts/杂谈Python异步编程.md",
-    "source/_posts/强大的包管理-Poetry.md",
-    "source/_posts/2021-7-8-离线lunar的使用.md",
-    "捐赠链接.md"
+    "source/_posts/Python并查集三种.md"
   ]
 }

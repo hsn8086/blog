@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/Codeforces-Python防卡哈希模板.md",
-                "mode": "preview",
+                "file": "source/_posts/2025蓝桥杯Python省赛B组题解.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Codeforces-Python防卡哈希模板"
+              "title": "2025蓝桥杯Python省赛B组题解"
             }
           }
         ]
@@ -181,6 +181,9 @@
   },
   "active": "c63d111022d9ed8b",
   "lastOpenFiles": [
+    "source/_posts/Codeforces-Python防卡哈希模板.md",
+    "conflict-files-obsidian-git.md",
+    "source/_posts/2025蓝桥杯Python省赛B组题解.md",
     "source/_posts/从01BFS到Dijkstra.md",
     "source/_posts/CF2070D-D-Tree-Jumps-题解.md",
     "source/_posts/Python-ST表.md",
@@ -189,7 +192,6 @@
     "source/_posts/随笔-0.md",
     "README.md",
     "source/_posts/CF2032-C-Trinity-题解.md",
-    "source/_posts/Codeforces-Python防卡哈希模板.md",
     "source/categories/index.md",
     "source/categories",
     "public/tags/codeforces/index.html",
