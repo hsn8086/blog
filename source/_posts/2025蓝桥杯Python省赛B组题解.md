@@ -137,14 +137,16 @@ print(max_l)
 
 ---
 # 试题G: 书架还原
-算是一道小思维题, 只要把每本书插到该有的位置, 然后替换点的书再放入他该有的位置, 执行下去必定是最小代价还原(每本书只用最多一次替换). 而如果不实际操作而是直接计数, 只需要判环即可, 可以证明时间复杂度为 $O(n)$ .
+算是一道小思维题. 我们可以将书籍的排列看作一个置换, 通过分析置换环的性质解决此题. 具体上是: 只要把每本书移动到该有的位置, 而被替换出来的书再继续移动到它应该在的位置, 这样迭代下去必然能以最小代价还原排列 (每本书最多一次移动). 如果不需要实际操作而只是计算最小移动次数, 可以通过统计置换环的数量来实现. 因为在这个置换中, 每个环内的元素会形成循环依赖, 对于一个包含 $k$ 个元素的环,只需要 $k-1$ 次交换即可将所有元素归位. 可以证明时间复杂度为 $O(n)$ . 
 
 ## 代码
+这里给出两种做法:
+### 解法1: 直接计数
 ``` python
 def clac(a: list, s: int, vis: set):
     sc = s
     cnt = 0
-    while True:
+    while True: # 判环
         vis.add(sc)
         sc = a[sc - 1]
         if s == sc:
@@ -157,13 +159,35 @@ n = int(input())
 a = list(map(int, input().split()))
 vis = set()
 cnt = 0
-for i in range(1, n):
+for i in range(1, n): # 把每个环的计数相加
     if i not in vis:
         cnt += clac(a, i, vis)
 
 print(cnt)
 ```
 
+### 解法2: 记环数
+``` python
+def clac(a: list, s: int, vis: set):
+    sc = s
+    while True:
+        vis.add(sc)
+        sc = a[sc - 1]
+        if s == sc:
+            break
+
+
+n = int(input())
+a = list(map(int, input().split()))
+vis = set()
+cnt = n
+for i in range(1, n+1):
+    if i not in vis:
+        cnt -= 1
+        clac(a, i, vis)
+
+print(cnt)
+```
 ---
 # 试题H: 异或和
 ## 40分做法
