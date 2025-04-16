@@ -226,3 +226,33 @@ n = int(input())
 a = list(map(int, input().split()))
 print(sum(sum((a[i] ^ a[j]) * (j - i) for j in range(i + 1, n)) for i in range(n - 1)))
 ```
+## 一百分做法
+待补全
+### 代码
+``` python
+```python
+n = int(input())
+a = list(map(int, input().split()))
+ans = 0
+
+for k in range(20):
+    cnt0 = 0
+    sum0 = 0
+    cnt1 = 0
+    sum1 = 0
+    res = 0
+    for j in range(n):
+        b = (a[j] >> k) & 1
+        if b == 0:
+            res += j * cnt1 - sum1
+            cnt0 += 1
+            sum0 += j
+        else:
+            res += j * cnt0 - sum0
+            cnt1 += 1
+            sum1 += j
+    ans += res * (1 << k)
+
+print(ans)
+```
+```
