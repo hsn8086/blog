@@ -8,6 +8,7 @@ tags:
   - 介绍
 reprintPolicy:  cc_by_nc_nd
 ---
+==别看了, 去看隔壁uv吧==
 # 简介
 > Poetry 是一个现代化的 Python 依赖管理和打包工具, 它简化了 Python 项目的依赖管理和打包发布流程. 
 

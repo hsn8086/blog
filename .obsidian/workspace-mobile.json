@@ -25,15 +25,14 @@
             "id": "2fbb0e8971ab7a10",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "source/_posts/随笔-曾经-关于转学.md",
-                "bFile": "source/_posts/随笔-曾经-关于转学.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "source/_posts/强大的包管理-Poetry.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff: 随笔-曾经-关于转学"
+              "icon": "lucide-file",
+              "title": "强大的包管理-Poetry"
             }
           }
         ],
@@ -182,11 +181,13 @@
   },
   "active": "2fbb0e8971ab7a10",
   "lastOpenFiles": [
+    "source/_posts/连接Python与JavaScript-STPyV8.md",
+    "source/_posts/随笔-曾经-关于转学.md",
+    "source/_drafts/未命名.md",
     "source/_posts/2025蓝桥杯Python省赛B组题解.md",
     "/source/_posts/2025蓝桥杯Python省赛B组题解.md",
     "/source/_posts",
     "/source",
-    "source/_posts/随笔-曾经-关于转学.md",
     "source/_posts/随笔-0.md",
     "source/_posts/杂谈Python异步编程.md",
     "source/_posts/Python-ST表.md",
@@ -198,7 +199,6 @@
     "source/_posts/CF2044-D-Harder-Problem-题解.md",
     "source/_posts/CF2032-C-Trinity-题解.md",
     "source/_posts/2021-6-5-MC服务器的搭建.md",
-    "source/_drafts/未命名.md",
     "source/_drafts/2021-11-12-#U4ece#U96f6#U5f00#U59cb#U7684#U542f#U52a8#U5668#U5236#U4f5c.md",
     "conflict-files-obsidian-git.md",
     "/conflict-files-obsidian-git.md",
