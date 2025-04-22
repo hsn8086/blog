@@ -9,9 +9,9 @@ tags:
 reprintPolicy: cc_by_nc_nd
 ---
 # 数据结构
-[[Python-Trie(字典树)]]
-[[Python-ST表]]
-[[Python并查集三种]]
+[Python-Trie(字典树)](./Python-Trie(字典树))
+[Python-ST表](./Python-ST表)
+[Python并查集三种](./Python并查集三种)
 
 # 算法
 [[从01BFS到Dijkstra]]
