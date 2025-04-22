@@ -14,9 +14,9 @@ reprintPolicy: cc_by_nc_nd
 [Python并查集三种](./Python并查集三种)
 
 # 算法
-[[从01BFS到Dijkstra]]
-[[Johnson全源最短路径-Python模板]]
+[从01BFS到Dijkstra](./从01BFS到Dijkstra)
+[Johnson全源最短路径-Python模板](./Johnson全源最短路径-Python模板)
 
 # 优化
-[[Python竞赛输入模板]]
-[[Codeforces-Python防卡哈希模板]]
+[Python竞赛输入模板](./Python竞赛输入模板)
+[Codeforces-Python防卡哈希模板](./Codeforces-Python防卡哈希模板)
