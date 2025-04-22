@@ -8,13 +8,50 @@ tags:
   - 模板
 reprintPolicy: cc_by_nc_nd
 ---
-# 速度优先
+# 简洁优先
+``` python
+n, m = map(int, input().split())
+a = list(map(int, input().split()))
+
+cmd_raw, args_raw = input().split(maxsplit=1)
+cmd = int(cmd_raw)
+args = list(map(int, args_raw.split()))
+
+```
+
+# 优化读入
+## 速度优化
 ``` python
 input=sys.stdin.readline
+
+# Example
 n, m = map(int, input().split())
 a = list(map(int, input().split()))
 ```
-# 内存优先 / 防止错误空行
+
+## 防Invalid Input(II)
+### 最简洁
+``` python
+import sys
+inp = map(int, filter(bool, sys.stdin.read().split()))
+
+# Example
+n, m = next(inp), next(inp)
+a = [next(inp) for _ in range(n)]
+```
+
+### 省内存
+``` python
+def reader(func=int):
+    while line := sys.stdin.readline():
+        yield from map(func, line.split())
+
+# Example
+n, m = next(inp), next(inp)
+a = [next(inp) for _ in range(n)]
+```
+
+### 内存优化(即使不防II)
 ``` python
 from collections.abc import Generator
 import sys
