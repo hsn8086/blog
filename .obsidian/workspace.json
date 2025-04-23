@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/Python-Trie(字典树).md",
+                "file": "source/_posts/Python防爆栈模板.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Python-Trie(字典树)"
+              "title": "Python防爆栈模板"
             }
           }
         ]
@@ -181,9 +181,10 @@
   },
   "active": "c63d111022d9ed8b",
   "lastOpenFiles": [
-    "source/_posts/hsn的Python竞赛模板合集.md",
-    "source/_posts/Python-Trie(字典树).md",
     "source/_posts/Python竞赛输入模板.md",
+    "source/_posts/Python防爆栈模板.md",
+    "source/_posts/Python-Trie(字典树).md",
+    "source/_posts/hsn的Python竞赛模板合集.md",
     "source/_posts/Python并查集三种.md",
     "source/_posts/2021-6-5-MC服务器的搭建.md",
     "source/未命名.md",
@@ -215,7 +216,6 @@
     "public/tag/index.html",
     "public/archives/2025/04",
     "source/tag/index.md",
-    "source/_posts/tag.md",
-    "source/_posts/ICPC2024-昆明-H.扫描地平线-题解.md"
+    "source/_posts/tag.md"
   ]
 }
