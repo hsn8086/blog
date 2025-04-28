@@ -103,7 +103,7 @@ def load(string: str):
     if string[0] == '"' and string[-1] == '"':
         return string[1:-1]
     elif string[0] == "[" and string[-1] == "]":
-	    return list(list_parse(string))
+        return list(list_parse(string))
     elif string[0] == "{" and string[-1] == "}":
         return dict(dict_parse(string))
     elif string == "true":
