@@ -1,4 +1,15 @@
-
+---
+title: 2025ICPC南昌邀请赛游记
+date: 2025-06-19 20:00:00
+katex: true
+tags:
+  - 游记
+  - ACM
+  - ICPC
+  - 算法
+  - 随笔
+reprintPolicy: cc_by_nc_nd
+---
 # D1 - 5.16
 虽然不是第一次打acm, 但是第一次正式名额出战.
 
