@@ -47,6 +47,7 @@ def reader(func=int):
         yield from map(func, line.split())
 
 # Example
+inp = reader()
 n, m = next(inp), next(inp)
 a = [next(inp) for _ in range(n)]
 ```
@@ -79,6 +80,7 @@ def chunk_reader(func=int, chunk_size=1 << 15) -> Generator[int, None, None]:
         del chunk # 删除区块
 
 
+# Example
 inp = chunk_reader(chunk_size=1 << 18)
 n, m = next(inp), next(inp)
 a = [next(inp) for _ in range(n)]
