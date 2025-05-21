@@ -1,5 +1,5 @@
 ---
-title: Python-树状数组
+title: Python 树状数组
 date: 2025-05-21 12:43:00
 katex: true
 tags:
