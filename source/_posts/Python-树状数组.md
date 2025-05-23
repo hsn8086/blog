@@ -100,3 +100,6 @@ class DoubleFenwickTree:
     def query(self, index):
         return self.range_query(index, index)
 ```
+
+## 例题
+[P3372 【模板】线段树 1](https://www.luogu.com.cn/problem/P3372)
