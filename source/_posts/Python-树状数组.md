@@ -134,7 +134,7 @@ $$ \begin{matrix} \sum_{i=l}^{r} \sum_{j=1}^{i} b_j = \\
 
 对于以上操作, 更直观的理解, 考虑由$b_j$组成的"三角形", 由上倒下分别:
 
-$$ \substack{ b_1 \\ b_1, b_2 \\ \vdots \\ b_1, b_2, \cdots,b_n } $$
+$$ \begin{matrix} b_1 \\ b_1, b_2 \\ \vdots \\ b_1, b_2, \cdots,b_n \end{matrix} $$
 
 可以发现, 期间有$n$个$b_1$, $n-1$个$b_2$直到一个$b_n$. 所以式子可以如此转化:
 
