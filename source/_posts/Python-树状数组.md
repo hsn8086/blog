@@ -70,7 +70,7 @@ class DiffFenwickTree:
 [P3368 【模板】树状数组 2](https://www.luogu.com.cn/problem/P3368)
 
 # 双树状数组
-水群知道的, 比较有趣的知识, 证明以后再说.
+水群知道的, 比较有趣的知识.
 
 支持区间修改区间查询
 
