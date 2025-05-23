@@ -22,15 +22,18 @@ class FenwickTree:
             self.tree[index] += delta
             index += index & -index
 
-    def query(self, index):
+    def query_prefix(self, index):
         res = 0
         while index > 0:
             res += self.tree[index]
             index -= index & -index
         return res
 
-    def range_query(self, l, r):
-        return self.query(r) - self.query(l - 1)
+    def query(self, index):
+        return self.range_query(index, index)
+
+    def range_query(self, left, right):
+        return self.query_prefix(right) - self.query_prefix(left - 1)
 ```
 ## 例题
 [P3374 【模板】树状数组 1](https://www.luogu.com.cn/problem/P3374)
@@ -65,3 +68,35 @@ class DiffFenwickTree:
 ```
 ## 例题
 [P3368 【模板】树状数组 2](https://www.luogu.com.cn/problem/P3368)
+
+# 双树状数组
+水群知道的, 比较有趣的知识, 证明以后再说.
+
+支持区间修改区间查询
+
+``` python
+class DoubleFenwickTree:
+    def __init__(self, size):
+        self.ft1 = FenwickTree(size)
+        self.ft2 = FenwickTree(size)
+
+    def _update(self, index, delta):
+        self.ft1.update(index, delta)
+        self.ft2.update(index, delta * index)
+
+    def update(self, index, delta):
+        self.range_update(index, index, delta)
+
+    def range_update(self, left, right, delta):
+        self._update(left, delta)
+        self._update(right + 1, -delta)
+
+    def query_prefix(self, index):
+        return (index + 1) * self.ft1.query_prefix(index) - self.ft2.query_prefix(index)
+
+    def range_query(self, left, right):
+        return self.query_prefix(right) - self.query_prefix(left - 1)
+
+    def query(self, index):
+        return self.range_query(index, index)
+```
