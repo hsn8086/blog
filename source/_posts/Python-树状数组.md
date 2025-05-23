@@ -126,8 +126,8 @@ $$ \sum_{i=l}^{r} a_i = \sum_{i=l}^{r} \sum_{j=1}^{i} b_j $$
 
 这个双重求和可以重新排列：
 
-$$ \sum_{i=l}^{r} \sum_{j=1}^{i} b_j = 
- \sum_{j=1}^{r} b_j \cdot (r - j + 1) - \sum_{j=1}^{l-1} b_j \cdot (l - j) $$
+$$ \begin{matrix} \sum_{i=l}^{r} \sum_{j=1}^{i} b_j = \\
+ \sum_{j=1}^{r} b_j \cdot (r - j + 1) - \sum_{j=1}^{l-1} b_j \cdot (l - j) \end{matrix} $$
 
 
 ---
