@@ -140,11 +140,9 @@ $$ \begin{matrix} b_1 \\ b_1, b_2 \\ \vdots \\ b_1, b_2, \cdots,b_n \end{matrix}
 
 $$ \sum_{i=1}^{n} \sum_{j=1}^{i} b_j = \sum_{j=1}^{n} b_j \cdot (n - j + 1)$$
 
-
-
 当只需要$l \to r$时, 相当于大三角形减去小三角形:
 
-$$ \substack{ b_1, \cdots, b_l\\ b_1, b_2, \cdots, b_{l+1}\\ \vdots \\ b_1, b_2, b_3, \cdots,b_n } $$
+$$ \begin{matrix} b_1, \cdots, b_l\\ b_1, b_2, \cdots, b_{l+1}\\ \vdots \\ b_1, b_2, b_3, \cdots,b_n \end{matrix} $$
 
 可以得到:
 
