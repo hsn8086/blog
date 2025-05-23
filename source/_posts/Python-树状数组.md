@@ -107,43 +107,29 @@ class DoubleFenwickTree:
 ## 证明
 ### 差分数组 $b_i$ 和原数组 $a_i$ 的关系
 在代码中, $a_i$ 是原数组, 而 $b_i$ 是它的**差分数组**, 定义为：
-
-$$
-b_i = a_i - a_{i-1}
-$$
-
+\[
+b_i = a_i - a_{i-1}$
+\]
 这样，原数组 `a[i]` 可以表示为差分数组 `b[i]` 的前缀和：
 
-$$
-a_i = \sum_{j=1}^{i} b_j
-$$
+$a_i = \sum_{j=1}^{i} b_j$
 
 ---
 
 ### 区间和 `sum(a[l..r])` 的推导
 现在考虑计算区间 `[l, r]` 的和：
-$$
-\sum_{i=l}^{r} a_i = \sum_{i=l}^{r} \sum_{j=1}^{i} b_j
-$$
+$\sum_{i=l}^{r} a_i = \sum_{i=l}^{r} \sum_{j=1}^{i} b_j$
+
 这个双重求和可以重新排列：
-$$
-\sum_{i=l}^{r} \sum_{j=1}^{i} b_j = \sum_{j=1}^{r} b_j \cdot (r - j + 1) - \sum_{j=1}^{l-1} b_j \cdot (l - j)
-$$
+$\sum_{i=l}^{r} \sum_{j=1}^{i} b_j = \sum_{j=1}^{r} b_j \cdot (r - j + 1) - \sum_{j=1}^{l-1} b_j \cdot (l - j)$
 ---
 
 对于以上操作, 更直观的理解, 考虑由$b_j$组成的"三角形", 由上倒下分别:
-$$
-\substack{
-b_1 \\
-b_1, b_2 \\
-\vdots \\
-b_1, b_2, \cdots,b_n
-}
-$$
+$\substack{b_1 \\ b_1, b_2 \\ \vdots \\ b_1, b_2, \cdots,b_n}$
 可以发现, 期间有$n$个$b_1$, $n-1$个$b_2$直到一个$b_n$. 所以式子可以如此转化:
-$$
-\sum_{i=1}^{n} \sum_{j=1}^{i} b_j = \sum_{j=1}^{n} b_j \cdot (n - j + 1)
-$$
+
+$\sum_{i=1}^{n} \sum_{j=1}^{i} b_j =\sum_{j=1}^{n} b_j \cdot (n - j + 1)$
+
 当只需要$l \to r$时, 相当于大三角形减去小三角形:
 $$
 \substack{
