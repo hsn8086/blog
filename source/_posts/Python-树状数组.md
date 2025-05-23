@@ -30,9 +30,9 @@ class FenwickTree:
         return res
 
     def query(self, index):
-        return self.range_query(index, index)
+        return self.query_range(index, index)
 
-    def range_query(self, left, right):
+    def query_range(self, left, right):
         return self.query_prefix(right) - self.query_prefix(left - 1)
 ```
 ## 例题
@@ -75,7 +75,7 @@ class DiffFenwickTree:
 支持区间修改区间查询
 
 ``` python
-class DoubleFenwickTree:
+class RURQFenwickTree:
     def __init__(self, size):
         self.ft1 = FenwickTree(size)
         self.ft2 = FenwickTree(size)
@@ -85,25 +85,25 @@ class DoubleFenwickTree:
         self.ft2.update(index, delta * index)
 
     def update(self, index, delta):
-        self.range_update(index, index, delta)
+        self.update_range(index, index, delta)
 
-    def range_update(self, left, right, delta):
+    def update_range(self, left, right, delta):
         self._update(left, delta)
         self._update(right + 1, -delta)
 
     def query_prefix(self, index):
         return (index + 1) * self.ft1.query_prefix(index) - self.ft2.query_prefix(index)
 
-    def range_query(self, left, right):
+    def query_range(self, left, right):
         return self.query_prefix(right) - self.query_prefix(left - 1)
 
     def query(self, index):
-        return self.range_query(index, index)
+        return self.query_range(index, index)
 ```
 
 ## 例题
 [P3372 【模板】线段树 1](https://www.luogu.com.cn/problem/P3372)
-
+[题解提交](https://www.luogu.com.cn/record/218151991)
 ## 证明
 ### 差分数组  $b_i$  和原数组  $a_i$  的关系
 在代码中, $a_i$  是原数组, 而  $b_i$  是它的**差分数组**, 定义为：
