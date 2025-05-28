@@ -1,5 +1,5 @@
 ---
-title: Python交互题模板
+title: Python计算几何模板
 date: 2025-05-28 20:17:00
 katex: true
 tags:
