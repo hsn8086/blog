@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/python-计算几何模板.md",
+                "file": "source/_posts/竞赛向乘法逆元.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python-计算几何模板"
+              "title": "竞赛向乘法逆元"
             }
           }
         ]
@@ -181,6 +181,9 @@
   },
   "active": "c63d111022d9ed8b",
   "lastOpenFiles": [
+    "source/_posts/python-计算几何模板.md",
+    "source/_posts/竞赛向乘法逆元.md",
+    "source/_posts/Python竞赛输入模板.md",
     "source/img/25ICPC南昌邀请赛游记/PXL_20250518_091233867.jpg",
     "source/img/25ICPC南昌邀请赛游记/PXL_20250517_145431185.jpg",
     "source/img/25ICPC南昌邀请赛游记/PXL_20250517_061225498.jpg",
@@ -191,9 +194,7 @@
     "source/img/25ICPC南昌邀请赛游记/IMG_20250519_232145_735~2.jpg",
     "source/img/25ICPC南昌邀请赛游记",
     "source/_posts/python-计算几何模板 1.md",
-    "source/_posts/python-计算几何模板.md",
     "source/_posts/Python-Trie(字典树).md",
-    "source/_posts/Python竞赛输入模板.md",
     "source/_posts/Python防爆栈模板.md",
     "source/_posts/Python并查集三种.md",
     "source/_posts/Python-ST表.md",
@@ -203,7 +204,6 @@
     "source/_posts/X(Twitter)开通收益实现盈利.md",
     "source/_posts/25ICPC南昌邀请赛游记/PXL_20250518_091233867.jpg",
     "source/_posts/25ICPC南昌邀请赛游记/PXL_20250517_145431185.jpg",
-    "source/_posts/25ICPC南昌邀请赛游记/PXL_20250517_061225498.jpg",
     "source/_posts/25ICPC南昌邀请赛游记",
     "source/_drafts/关于算法竞赛(1490).md",
     "source/_posts/小数.md",
