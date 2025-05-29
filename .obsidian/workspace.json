@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/Python-树状数组.md",
+                "file": "source/_posts/python-计算几何模板.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python-树状数组"
+              "title": "python-计算几何模板"
             }
           }
         ]
@@ -181,29 +181,35 @@
   },
   "active": "c63d111022d9ed8b",
   "lastOpenFiles": [
-    "source/_posts/25ICPC南昌邀请赛游记.md",
-    "source/_posts/Python-树状数组.md",
+    "source/img/25ICPC南昌邀请赛游记/PXL_20250518_091233867.jpg",
+    "source/img/25ICPC南昌邀请赛游记/PXL_20250517_145431185.jpg",
+    "source/img/25ICPC南昌邀请赛游记/PXL_20250517_061225498.jpg",
+    "source/img/25ICPC南昌邀请赛游记/PXL_20250517_033329068.jpg",
+    "source/img/25ICPC南昌邀请赛游记/PXL_20250516_120019829.jpg",
+    "source/img/25ICPC南昌邀请赛游记/IMG_20250519_232911_508~2.jpg",
+    "source/img/25ICPC南昌邀请赛游记/IMG_20250519_232147_867~2.jpg",
+    "source/img/25ICPC南昌邀请赛游记/IMG_20250519_232145_735~2.jpg",
+    "source/img/25ICPC南昌邀请赛游记",
+    "source/_posts/python-计算几何模板 1.md",
+    "source/_posts/python-计算几何模板.md",
+    "source/_posts/Python-Trie(字典树).md",
+    "source/_posts/Python竞赛输入模板.md",
+    "source/_posts/Python防爆栈模板.md",
+    "source/_posts/Python并查集三种.md",
     "source/_posts/Python-ST表.md",
+    "source/_posts/Python-树状数组.md",
+    "source/_posts/Python-交互题模板.md",
+    "source/_posts/25ICPC南昌邀请赛游记.md",
     "source/_posts/X(Twitter)开通收益实现盈利.md",
     "source/_posts/25ICPC南昌邀请赛游记/PXL_20250518_091233867.jpg",
     "source/_posts/25ICPC南昌邀请赛游记/PXL_20250517_145431185.jpg",
     "source/_posts/25ICPC南昌邀请赛游记/PXL_20250517_061225498.jpg",
-    "source/_posts/25ICPC南昌邀请赛游记/PXL_20250517_033329068.jpg",
-    "source/_posts/25ICPC南昌邀请赛游记/PXL_20250516_120019829.jpg",
-    "source/_posts/25ICPC南昌邀请赛游记/IMG_20250519_232911_508~2.jpg",
-    "source/_posts/25ICPC南昌邀请赛游记/IMG_20250519_232147_867~2.jpg",
-    "source/_posts/25ICPC南昌邀请赛游记/IMG_20250519_232145_735~2.jpg",
     "source/_posts/25ICPC南昌邀请赛游记",
     "source/_drafts/关于算法竞赛(1490).md",
     "source/_posts/小数.md",
-    "source/_posts/Python防爆栈模板.md",
-    "source/_posts/Python竞赛输入模板.md",
     "source/未命名.md",
     "source/_posts/hsn的及其Pythonic的CPP竞赛模板.md",
-    "source/_posts/Python-交互题模板.md",
-    "source/_posts/Python-Trie(字典树).md",
     "source/_posts/hsn的Python竞赛模板合集.md",
-    "source/_posts/Python并查集三种.md",
     "source/_posts/2021-6-5-MC服务器的搭建.md",
     "source/_posts/Python-线段树.md",
     "source/_posts/随笔-曾经-关于转学.md",
@@ -213,9 +219,6 @@
     "source/_posts/ICPC2024-台中-B.保龄球-题解.md",
     "source/_posts/Codeforces-Python防卡哈希模板.md",
     "conflict-files-obsidian-git.md",
-    "source/_posts/从01BFS到Dijkstra.md",
-    "source/_posts/CF2070D-D-Tree-Jumps-题解.md",
-    "source/_drafts/2021-11-12-#U4ece#U96f6#U5f00#U59cb#U7684#U542f#U52a8#U5668#U5236#U4f5c.md",
     "source/categories",
     "public/tags/codeforces/index.html",
     "public/tags/codeforces",
@@ -223,7 +226,6 @@
     "public/2025/04/09/Codeforces-Python防卡哈希模板",
     "public/2025/04/09",
     "public/2025/04",
-    "public/archives/2025/04/index.html",
-    "public/tag/index.html"
+    "public/archives/2025/04/index.html"
   ]
 }
