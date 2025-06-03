@@ -1,3 +1,15 @@
+---
+title: 2025CCPC郑州邀请赛游记
+date: 2025-06-03 23:00:00
+katex: true
+tags:
+  - 游记
+  - ACM
+  - CCPC
+  - 算法
+  - 随笔
+reprintPolicy: cc_by_nc_nd
+---
 # D1 - 6.1
 今天是儿童节, 不过主办方并没有给一些特别的物资, 依旧是不太好看的衣服, 啊. 
 
