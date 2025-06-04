@@ -9,14 +9,10 @@ tags:
 reprintPolicy: cc_by_nc_nd
 ---
 # 简介
-类似协程, 可以`yield`结果, 记得`return`.
+类似协程, `yield`函数, `return`结果.
 
 # 代码
 ``` python
-from typing import Generator, Any
-
-
-
 def calc(n):
     if n <= 1:
         return n
@@ -25,39 +21,16 @@ def calc(n):
         return a + 1
 
 
-def event_loop(start_gen: Generator):
-    stack: list[Generator] = [start_gen]
-
-    last_result: Any = None
-
-    while stack:
-        now_task = stack[-1]
+def event_loop(s):
+    stk, last_rst = [s], None
+    while stk:
         try:
-            next_val = now_task.send(last_result)
-            last_result = None
-            if isinstance(next_val, Generator):
-                stack.append(next_val)
-            else:
-                last_result = next_val
-                stack.pop()
-
+            func, last_rst = stk[-1].send(last_rst), None
+            stk.append(func)
         except StopIteration as e:
-            stack.pop()
-
-            last_result = e.value
-
-        except TypeError as e:
-            if (
-                last_result is None
-                and "can't send non-None value to a just-started generator"
-                not in str(e)
-            ):
-                last_result = None
-                continue
-            else:
-                raise e
-
-    return last_result
+            last_rst = e.value
+            stk.pop()
+    return last_rst
 
 
 print(f"Final result: {event_loop(calc(1000000))}")
