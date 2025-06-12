@@ -169,7 +169,10 @@ links:
     url: https://sakuya.moe/
     image: https://bu.dusays.com/2023/11/28/6565a69d55ea4.png
     desc: 我可真是个大聪明~！
-
+  - name: L4plAce
+    url: https://www.l4place.icu/
+    image: https://www.l4place.icu/img/avatar.jpg
+    desc: 以空想为罗盘，以实践作航船
 # Footer settings | 页脚
 footer:
   # Hexo link (Powered by Hexo).
