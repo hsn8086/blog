@@ -1,3 +1,13 @@
+---
+title: Python竞赛魔法书
+date: 2025-06-14 16:00:00
+katex: true
+tags:
+  - 算法
+  - python
+  - 模板
+reprintPolicy: cc_by_nc_nd
+---
 # 输入
 ## 输入单个变量
 Python 默认读入是字符串.
@@ -311,5 +321,26 @@ print(f"Final result: {event_loop(calc(1000000))}")
 使用 `yield` 返回"函数".
 
 # 哈希
+## 集合
+todo
 ## 字典
-defaultdict
+`defaultdict` 方便了字典的创建.
+比如建图的时候.
+``` python
+from collections import defaultdict
+
+e = defaultdict(list)
+for _ in range(m):
+    u, v = map(int, input().split())
+    e[u].append(v)
+    e[v].append(u)
+```
+
+又或者计数? 啊不, 计数还有更好用的, `Counter` .
+``` python
+from collections import Counter
+
+ct=Counter(lst)
+```
+
+todo
