@@ -1,6 +1,6 @@
 # 输入
 ## 输入单个变量
-Python默认读入是字符串.
+Python 默认读入是字符串.
 ``` python
 s = input()
 ```
@@ -22,7 +22,7 @@ from decimal import Decimal
 n = Decimal(input())
 ```
 
-**注, 请不用使用eval, 那会超级慢!**
+**注, 请不用使用 eval , 那会超级慢!**
 
 ## 输入多个变量
 解包, 是一种将可迭代对象中的元素分成单个变量的技巧. 利用这一点我们可以简洁的读入一行多个值.
@@ -151,7 +151,7 @@ lst = [[0, 1]] * 10  # 错误的
 lst = [[0, 1] for _ in range(10)] # 正确的
 ```
 
-请注意`list`的`*`是, 浅拷贝!
+请注意 `list` 的 `*` 是, 浅拷贝!
 按照错误实例创建出来的数组, 每一个元素指针都是**一样的**.
 当其中一个元素被改变 (注意被替换不是被改变), 其余元素也会被同样的改变.
 
@@ -175,7 +175,7 @@ lst = sorted(lst)
 第二种的好处是, 任意迭代器, 包括生成器都可排序.
 但是, 第一种简洁, 而且可能会占用更小的空间 (未验证).
 
-如果希望排序后是逆序, 加入`reverse=True`即可.
+如果希望排序后是逆序, 加入 `reverse=True` 即可.
 ``` python
 lst.sort(reverse=True)
 lst = sorted(lst, reverse=True)
@@ -189,7 +189,7 @@ lst.sort(key=lambda x: x[1])
 lst = sorted(lst, key=lambda x: x[1])
 ```
 
-假如你希望用`cmp`函数而不是`key`.
+假如你希望用 `cmp` 函数而不是 `key` .
 ``` python
 from functools import cmp_to_key
 
@@ -197,7 +197,7 @@ lst.sort(key=cmp_to_key(cmp))
 ```
 
 ## 前缀和
-前缀和并不用手动求, 用`accumulate()`可以很简洁的求得.
+前缀和并不用手动求, 用 `accumulate()` 可以很简洁的求得.
 ``` python
 from itertools import accumulate
 
@@ -224,7 +224,7 @@ for i, v in enumerate(lst, 1):
 ```
 是不是方便多了?
 
-当一个列表需要枚举所有`l`和`r`的时候.
+当一个列表需要枚举所有 `l` 和 `r` 的时候.
 ``` python
 from itertools import product
 
@@ -232,7 +232,7 @@ for l, r in product(a, repeat=2):
     ...
 ```
 
-当遇到两层`for`的时候.
+当遇到两层 `for` 的时候.
 ``` python
 from itertools import product
 
@@ -263,6 +263,14 @@ for lst_n in batched(lst, n):
 ```
 
 # 搜索
+## 二分
+对于二分查找, Python 有 `bisect` 库.
+``` python
+idx = bisect.bisect(lst, x)
+```
+
+当然也可以使用 `key` 参数进行一些定制化的查找.
+
 ## 记忆化 dfs
 比如计算 fib 时.
 ``` python
@@ -300,4 +308,8 @@ def event_loop(s):
 
 print(f"Final result: {event_loop(calc(1000000))}")
 ```
-使用`yield`返回"函数".
+使用 `yield` 返回"函数".
+
+# 哈希
+## 字典
+defaultdict
