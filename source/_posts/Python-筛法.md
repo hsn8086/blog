@@ -14,15 +14,15 @@ reprintPolicy: cc_by_nc_nd
 ``` python
 def euler_sieve(n):
     pri = []
-    not_prime = [False] * (n + 1)
+    not_prime = bytearray(n + 1)
     for i in range(2, n + 1):
         if not not_prime[i]:
             pri.append(i)
-        for pri_j in pri:
-            if i * pri_j > n:
+        for p in pri:
+            if i * p > n:
                 break
-            not_prime[i * pri_j] = True
-            if i % pri_j == 0:
+            not_prime[i * p] = 1
+            if i % p == 0:
                 break
     return pri
 ```
