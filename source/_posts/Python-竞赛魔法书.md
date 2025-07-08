@@ -8,6 +8,7 @@ tags:
   - 模板
 reprintPolicy: cc_by_nc_nd
 ---
+
 # 输入
 ## 输入单个变量
 Python 默认读入是字符串.
@@ -151,6 +152,22 @@ print(*lst)
 print(*lst, sep="\n")
 ```
 
+# 变量
+## 变量交换
+``` python
+a, b = b, a
+# 甚至
+a, b, c, d = c, d, a, b
+```
+## 解包
+在输入命令那节, 我们用解包实现了命令和参数的拆解, 而现在是完整的性质.
+``` python
+a, *lst = line # 取出第一个元素和后续元素
+a, *lst, b = line # 取出首尾元素和中间元素
+a, *_, b = line # 如果你想省略中间元素
+a, b, *lst = line # 嗯, 还可以取俩
+a, *lst, b, c = line # 当然了, 前面再加一个也可以
+```
 # 列表和迭代器
 ## 初始化
 这些, 可能并不是魔法, 而是一些坑点.
@@ -271,6 +288,84 @@ from itertools import batched
 for lst_n in batched(lst, n):
     ...
 ```
+## 布尔数组加速
+这是oiwiki上的线性筛:
+``` python
+def euler_sieve(n):
+    pri = []
+    not_prime = [False] * (n + 1)
+    for i in range(2, n + 1):
+        if not not_prime[i]:
+            pri.append(i)
+        for pri_j in pri:
+            if i * pri_j > n:
+                break
+            not_prime[i * pri_j] = True
+            if i % pri_j == 0:
+                break
+    return pri
+```
+而这是优化过的:
+``` python
+def euler_sieve(n):
+    pri = []
+    not_prime = bytearray(n + 1)
+    for i in range(2, n + 1):
+        if not not_prime[i]:
+            pri.append(i)
+        for p in pri:
+            if i * p > n:
+                break
+            not_prime[i * p] = 1
+            if i % p == 0:
+                break
+    return pri
+```
+看起来好像并无太大差异, 但是后者可以通过洛谷模板题, 而前者不行.
+todo: 内存视图可以加速吗..?
+# 哈希
+## 集合
+todo
+## 字典
+`defaultdict` 方便了字典的创建.
+比如建图的时候.
+``` python
+from collections import defaultdict
+
+e = defaultdict(list)
+for _ in range(m):
+    u, v = map(int, input().split())
+    e[u].append(v)
+    e[v].append(u)
+```
+
+又或者计数? 啊不, 计数还有更好用的, `Counter` .
+``` python
+from collections import Counter
+
+ct = Counter(lst)
+```
+todo
+
+## 防卡
+卡哈希要特定数值特定顺序才能卡, 所以只要打乱顺序或者随机偏移就好了.
+``` python
+from random import shuffle
+
+lst=[1, 2, 3]
+shuffle(lst)
+set(lst)
+```
+如果不方便打乱的话, 可以加随机偏移.
+``` python
+from random import randint
+
+key = int(input())
+rnd = randint(100, 1000)
+mp = {}
+mp[key + rnd] = 1
+print(mp[key + rnd]) # 返回 1
+```
 
 # 搜索
 ## 二分
@@ -320,27 +415,35 @@ print(f"Final result: {event_loop(calc(1000000))}")
 ```
 使用 `yield` 返回"函数".
 
-# 哈希
-## 集合
-todo
-## 字典
-`defaultdict` 方便了字典的创建.
-比如建图的时候.
-``` python
-from collections import defaultdict
 
-e = defaultdict(list)
-for _ in range(m):
-    u, v = map(int, input().split())
-    e[u].append(v)
-    e[v].append(u)
+# 数学和数论
+## 公约数公倍数
+Python 的公约数公倍数比较神奇, 因为他可以输入两个以上的元素, 甚至是一整个列表.
+``` python
+from math import gcd
+lst = [6, 12, 10]
+gcd(*lst) # 将会返回 2
+```
+## 整数平方根
+求整数平方根, 在其他语言大概想到的是二分或者牛顿迭代. 但是 Python 有一个函数专门处理此问题, `math.isqrt`.
+``` python
+from math import isqrt
+
+isqrt(5) # 将会返回 2
+```
+## 模逆元
+可能听说过 $exgcd$ 比 快速幂 快, 但是在 Python 中是哪个快呢? 嗯, 都不是, 在 Python 中, 直接求逆元快. 
+``` python
+inv = pow(a, -1, mod)
 ```
 
-又或者计数? 啊不, 计数还有更好用的, `Counter` .
+## 极坐标转换(反三角函数)
+如果要把笛卡尔坐标转换成极坐标, 大概会想到`atan`, 不过, Python 中有更方便的`atan2`, 可以剩下判断正负的时间.
 ``` python
-from collections import Counter
+from math import atan2
 
-ct=Counter(lst)
+deg = atan2(x, y)
 ```
 
-todo
+## 无穷
+`inf=1<<70`快于`math.inf`快于`float("inf")`
