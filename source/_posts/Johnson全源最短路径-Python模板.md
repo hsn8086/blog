@@ -10,6 +10,8 @@ tags:
   - python
 reprintPolicy: cc_by_nc_nd
 ---
+**此文章已过时**
+{% post_link Python-最短路 %}
 # 简介
 模板使用defaultdict实现, 不必要时可以更换list减少内存开销.
 有结果时返回一个字典, 有负环返回None.
