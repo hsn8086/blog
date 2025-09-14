@@ -173,6 +173,11 @@ links:
     url: https://www.l4place.icu/
     image: https://www.l4place.icu/img/avatar.jpg
     desc: 以空想为罗盘，以实践作航船
+  - name: SamuFlore's Dimension
+    url: https://samuflore.top/
+    image: https://samuflore.top/images/avatar.png
+    desc: 德才兼備、知行合一
+    
 # Footer settings | 页脚
 footer:
   # Hexo link (Powered by Hexo).
