@@ -181,7 +181,10 @@ links:
     url: https://xhblog.top/
     avatar: https://xhblog.top/img/724d7fb480c8ac0db472ca5c7e36d239.jpg
     desc: =爬起仅仅只是因为不想输。
-    
+  - name: 御坂晚的笨蛋笔记
+    url: https://starneko.com/
+    avatar: https://starneko.com/img/Mahiro.jpg
+    desc: 这里什么都没有呢
 # Footer settings | 页脚
 footer:
   # Hexo link (Powered by Hexo).
