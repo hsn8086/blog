@@ -189,6 +189,13 @@ links:
     url: https://www.hoshiroko.com/
     avatar: https://api.hoshiroko.com/img/avatar.jpg
     desc: 越是拼命往前伸手，渴望之物越是渐行渐远
+  - name: 猪猪博客
+    url: https://www.zzwl.top/
+    avatar: https://www.zzwl.top/favicon.ico
+    desc: 没有描述
+
+
+
 # Footer settings | 页脚
 footer:
   # Hexo link (Powered by Hexo).
