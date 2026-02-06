@@ -185,6 +185,10 @@ links:
     url: https://starneko.com/
     avatar: https://starneko.com/img/Mahiro.jpg
     desc: 这里什么都没有呢
+  - name: 薄荷の小屋
+    url: https://www.hoshiroko.com/
+    avatar: https://api.hoshiroko.com/img/avatar.jpg
+    desc: 越是拼命往前伸手，渴望之物越是渐行渐远
 # Footer settings | 页脚
 footer:
   # Hexo link (Powered by Hexo).
